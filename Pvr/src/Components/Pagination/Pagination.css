@@ -1,0 +1,27 @@
+/* Center pagination */
+.MuiPagination-root {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+/* Normal page buttons */
+.MuiPagination-ul li button {
+  color: #f1c40f; /* gold text */
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.MuiPagination-ul li button:hover {
+  background-color: rgba(241, 196, 15, 0.15); /* soft gold hover */
+  transform: scale(1.1);
+}
+
+/* Selected (active) page */
+.MuiPagination-ul li.Mui-selected button {
+  background-color: #f1c40f !important; /* solid gold */
+  color: #111 !important;               /* dark text for contrast */
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(241, 196, 15, 0.7);
+}

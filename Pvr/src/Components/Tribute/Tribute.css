@@ -1,0 +1,18 @@
+.tribute-section {
+  text-align: center;
+  padding: 40px 20px;
+  color: #ddd;
+}
+
+.tribute-title {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #f5c518;
+}
+
+.tribute-text {
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #aaa;
+}
